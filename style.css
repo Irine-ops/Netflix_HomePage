@@ -1,0 +1,77 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("omg.jpg");
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.language-dropdown {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.middle-one {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.bold-white {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.white {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.email{
+    background-color: black;
+    color: white;
+    width: 50px;
+}
